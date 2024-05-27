@@ -984,7 +984,7 @@ const Banner = ({ user, setUser }) => {
           <div className="parent-content">
             <div className="upper-content">
               <div className="twice-elem">
-                <h6>Account Overview</h6>
+                <h6>Account Overview11</h6>
                 {fetchProgress?.scanStatus === "Complete" ? (
                   <></>
                 ) : (
