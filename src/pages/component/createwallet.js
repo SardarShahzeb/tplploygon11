@@ -71,7 +71,7 @@ const Createwallet = () => {
           if (password === cpassword) {
             setLoader(true);
             const web3 = new Web3(
-              "https://light-serene-feather.matic.quiknode.pro/f0cdd8c4c146e68ce2f935bba399ca66cbe45868/"
+              "https://polygon-mainnet.g.alchemy.com/v2/HpqPv8tECj8F2CK3Zxyk8acQgPoS0_lQ/"
             );
             let blockNumb = null;
             web3.eth

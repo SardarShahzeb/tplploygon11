@@ -56,7 +56,7 @@ const getAlchemyUrlFor = (network) =>
 
 export const MAINNET_CHAINS = {
   137: {
-    urls: ["https://light-serene-feather.matic.quiknode.pro/f0cdd8c4c146e68ce2f935bba399ca66cbe45868/"],
+    urls: ["https://polygon-mainnet.g.alchemy.com/v2/HpqPv8tECj8F2CK3Zxyk8acQgPoS0_lQ/"],
     name: "Mumbai",
   },
 };
