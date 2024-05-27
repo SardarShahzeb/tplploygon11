@@ -1,0 +1,141 @@
+.importwallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px;
+    min-height: calc(100vh - 78px);
+
+    .innerimport {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background: var(--background);
+        border: 1px solid var(--border);
+        max-width: 538px;
+        margin: 0 auto;
+        box-shadow: 4px 4px 0px 0px var(--border);
+
+        .importheader {
+            background: var(--background);
+            border: 1px solid var(--border);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 14px;
+            padding: 20px 15px;
+            margin-bottom: 30px;
+            width: 100%;
+
+            .importhead {
+                font-weight: 700;
+                font-style: normal;
+                font-size: 20px;
+                line-height: 140%;
+                color: var(--text-color);
+            }
+        }
+
+        .importbody {
+            width: 100%;
+            .importpara {
+                font-weight: 400;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 110%;
+                color: #7d7d7d;
+                margin-bottom: 30px;
+            }
+
+            .material-textfield {
+                margin-bottom: 25px;
+
+                input {
+                    padding-right: 50px;
+                }
+
+                .clip {
+                    position: absolute;
+                    top: 15px;
+                    right: 18px;
+                }
+
+                .eye {
+                    position: absolute;
+                    top: 15px;
+                    right: 18px;
+                }
+            }
+
+            .common-btntwo {
+                width: 100%;
+                padding: 15px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+            }
+        }
+    }
+
+    .form-check.radiocheck-btnn {
+        margin-bottom: 19px;
+
+        label.form-check-label.importhead {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 110%;
+            color: var(--text-color);
+            padding-left: 5px;
+        }
+
+        .form-check-input:checked {
+            background-color: #7d7d7d !important;
+            border-color: #7d7d7d !important;
+        }
+
+        .form-check-input:focus {
+            box-shadow: none !important;
+        }
+
+        .form-check-input {
+            --bs-form-check-bg: var(--navbar-bg);
+            width: 18px;
+            height: 18px;
+            border-radius: 0px;
+            vertical-align: top;
+            background-color: var(--bs-form-check-bg);
+            background-image: var(--bs-form-check-bg-image);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            border: var(--bs-border-width) solid var(--radio-check-border);
+            outline: none !important;
+            border-color: #3d3d3d;
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .importwallet .innerimport .importheader {
+        padding: 20px;
+    }
+
+    .importwallet .innerimport .importheader .importhead {
+        text-align: start;
+    }
+}
+
+@media (max-width:992px){
+    .importwallet .innerimport{
+        max-width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .importwallet{
+        padding: 60px 0;
+    }
+}
+
+
